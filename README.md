@@ -1,4 +1,7 @@
-# Credit-Card-Fraud-Detector
+# Credit Card Fraud Detector
+
+### Exploratory Data Analysis
+![Data Distribution Accounts](/Images/Data%20Distribution.JPG)
 
 Performed preprocessing and data visualization for top fraud accounts.
 Estimated the amount lost in reversed and multi-swipe transactions.
@@ -10,6 +13,9 @@ Analysed performance of various classification models-
 - DecisionTree Classifier
 - Logistic Regression
 - SVC
+
+### Top Fraud accounts 
+![Top fraud accounts](/Images/top10Fraud.JPG)
 
 ## Model Analysis
 Here XGBoost has the an relatively high accuracy in predicting fraud transactions for the test_set compared to the previous models. Random forests are bagged decision tree models that split on a subset of features on each split instead of using all the features at once. This helps in determining the best step forward at each iteration
@@ -29,7 +35,7 @@ Test Data Accuracies:
 | Random Forest | 0.6701 |
 | XGBoost Classifier | 0.6704 |
 
-
+![Top fraud accounts](/Images/Graph.JPG)
 
 Based upon the AUC and above Confusion Matrix the choice of models for the Fraud prediction is as follows:
 ### XGBoost >= Random Forest > Logistic Regression > Decision Tree > SVC
